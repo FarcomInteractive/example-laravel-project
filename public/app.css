@@ -1,6 +1,6 @@
 .box {
-  color: #0000ff;
-  border-color: #9999ff;
+  color: #008000;
+  border-color: #1aff1a;
 }
 .box div {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
