@@ -8,15 +8,6 @@ use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 class Handler extends ExceptionHandler
 {
     /**
-     * A list of the exception types that should not be reported.
-     *
-     * @var array
-     */
-    protected $dontReport = [
-        \Symfony\Component\HttpKernel\Exception\HttpException::class,
-    ];
-
-    /**
      * Report or log an exception.
      *
      * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
@@ -28,6 +19,15 @@ class Handler extends ExceptionHandler
     {
         return parent::report($e);
     }
+
+    /**
+     * A list of the exception types that should not be reported.
+     *
+     * @var array
+     */
+    protected $dontReport = [
+        \Symfony\Component\HttpKernel\Exception\HttpException::class,
+    ];
 
     /**
      * Render an exception into an HTTP response.

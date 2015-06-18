@@ -4,12 +4,13 @@
 
 {% block content %}
     <h1>Серия романов о Гарри Поттере</h1>
-
-    <div id="books">
+    <div class="container">
+    <div class="content">
         {% for book in books %}
             <div class="book">
                 <strong>{{book.number}}</strong>. "<em>{{book.title}}"</em> - {{book.date}}
             </div>
         {% endfor %}
+    </div>
     </div>
 {% endblock %}
