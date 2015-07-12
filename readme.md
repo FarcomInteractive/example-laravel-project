@@ -3,11 +3,16 @@
 1.	Возможности PHPStorm, https://www.jetbrains.com/phpstorm/quickstart/
 2.	В OpenServer ставим версию php 5.6
 3.	Установка Laravel
+
 a.	Создаем в папке OpenServer/domains папку с названием сайта, например laravel
+
 b.	Открываем консоль OpenServer’a
+
 c.	Переходим в нашу папку командой cd domains/laravel
+
 d.	Ставим через Composer, для выполняем в консоли: 
      composer create-project laravel/laravel --prefer-dist
+     
 e.	Настраиваем, http://laravel.su/docs/5.0/installation#configuration
 4.	Настраиваем xDebug, в php.ini: ( http://open-server.ru/forum/viewtopic.php?f=4&t=1249 )
 
@@ -66,3 +71,5 @@ xdebug.var_display_max_depth = 16
 
 5.	LESS ( http://lesscss.org/ ), Компиляция LESS в CSS на лету в phpStorm под Windows ( http://predvoditelev.ru/less_to_css_in_phpstorm_win/ )
 6.	Ставив Twig, https://github.com/rcrowe/TwigBridge
+
+<img src="https://www.evernote.com/shard/s138/sh/ad853643-dab3-4288-89f9-82512258dae0/53ca9fd45b81b9a97dad6c1763940b47/res/e6389831-3859-40a9-8828-fd2de3e7e808/skitch.png">
